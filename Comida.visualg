@@ -1,0 +1,19 @@
+algoritmo "Preparar comida"
+
+var
+  opcao: inteiro
+
+inicio
+  escreval("O que voce gostaria de preparar?")
+  escreval("1 - Hambúrguer | 2 - Pizza | 3 - Salada")
+  leia(opcao)
+
+  escolha opcao
+    caso 1
+      escreval("Preparando Hambúrguer...")
+    caso 2
+      escreval("Preparando Pizza...")
+    caso 3
+      escreval("Preparando Salada...")
+  fimescolha
+fimalgoritmo
