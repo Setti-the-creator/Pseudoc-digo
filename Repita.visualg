@@ -1,0 +1,16 @@
+algoritmo "RepetidorSimples"
+
+var
+   i: inteiro
+
+inicio
+
+    i <- 1
+
+    repita
+        escreval("Número: ", i)
+        i <- i 1
+    ate(i > 3)
+    
+
+fimalgoritmo
