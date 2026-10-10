@@ -1,0 +1,25 @@
+algoritmo "FuncaoSomar"
+
+var
+   resultado: inteiro 
+   valor1:inteiro
+   valor2:inteiro   
+
+funcao somar(valor1,valor2):inteiro
+    inicio
+      retorne valor1 + valor2
+fimfuncao
+
+
+
+inicio
+escreval("Digite um numero para somar: ")
+leia(valor1)
+escreval("Digite outro numero para somar com o anterior: ")
+leia(valor2)
+
+
+resultado <- somar(valor1, valor2)
+escreval("Resultado da soma:  ",resultado)
+
+fimalgoritmo
