@@ -1,0 +1,16 @@
+algoritmo "FunçõesCaracteres"
+
+var
+  texto: caractere
+
+inicio
+  texto <- "Setti"
+  escreval("Texto original: ",texto)
+  escreval("Cópia de parte de texto:", copia(texto,1,3))
+  escreval("Quantidade de caracteres: ",compr(texto))
+  escreval("Texto em letra maiúscula: ",maiusc(texto))
+  escreval("Texto em letra minúscula: ",minusc(texto))
+  escreval("Posição de 'tt': ", pos("tt",texto))
+
+
+fimalgoritmo
